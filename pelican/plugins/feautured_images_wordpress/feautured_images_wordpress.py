@@ -10,7 +10,7 @@ def images_extraction(instance):
     representativeImage = None
     if type(instance) in (Article, Page):
         if 'attachments' in instance.metadata:
-            representativeImage = instance.metadata['attachments'].split(',')[]
+            representativeImage = instance.metadata['attachments'].split(',')[0]
 
         # Process Summary:
         # If summary contains images, extract one to be the representativeImage
