@@ -2,7 +2,7 @@
 name = "pelican-feautured-images-wordpress"
 version = "0.0.1"
 description = "Attachment photo as feautured images"
-authors = [Aleksandar Nikolikj <nikolikj@gmail.com>]
+authors = ["Aleksandar Nikolikj <nikolikj@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 keywords = ["pelican", "plugin"]
